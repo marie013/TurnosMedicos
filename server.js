@@ -23,8 +23,8 @@ app.post('/nuevo',(request, response)=>{
     Controlador.nuevoPaciente(request.body);
     response.sendFile(path.join(__dirname, './static/menu.html'))
 })
-app.get('/agregarPaciente', (request, response)=>{
-    response.sendFile(path.join(__dirname, './static/agregarPaciente.html'))
+app.get('/nuevoPaciente', (request, response)=>{
+    response.sendFile(path.join(__dirname, './static/nuevoPaciente.html'))
 })
 app.listen(port,()=>{
     console.log(`express listen en puerto ${port}`);
