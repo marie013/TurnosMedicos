@@ -7,4 +7,7 @@ function nuevoPaciente(data){
     let miPaciente = new Clases.Paciente(data.nombre, parseInt(data.dni), data.domicilio, parseInt(data.edad));
     Modelo.guardarPaciente(miPaciente);
 }
-module.exports = {nuevoPaciente}
+function mostrar(){
+    return Modelo.mostrar();
+}
+module.exports = {nuevoPaciente, mostrar}
