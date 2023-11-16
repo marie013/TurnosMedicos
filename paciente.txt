@@ -1,1 +1,1 @@
-[{"nombre":"Betty","dni":34567012,"domicilio":"Villa","edad":34},{"nombre":"Carlos","dni":1234,"domicilio":"Villa","edad":33},{"nombre":"Benito","dni":94222123,"domicilio":"Lavalle","edad":39}]
+[{"nombre":"Betty","dni":34567012,"domicilio":"Villa","edad":34},{"nombre":"Carlos","dni":1234,"domicilio":"Villa","edad":33},{"nombre":"Benito","dni":94222123,"domicilio":"Lavalle","edad":39},{"nombre":"Diego","dni":45368792,"domicilio":"Las Heras","edad":48}]
